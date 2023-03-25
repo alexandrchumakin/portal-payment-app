@@ -1,18 +1,18 @@
 <template>
   <div id="app">
     <header>
-      <img alt="Payment logo" class="logo" height="200" src="@/assets/online-payment.svg" width="250"/>
+      <img alt="Payment logo" class="logo-img" src="@/assets/online-payment.svg"/>
 
       <div class="wrapper">
         <nav>
-          <router-link class="routerLink" tag="button" to="/"><img alt="Users" height="40" src="@/assets/user.svg"
-                                                                   width="40"/>Users
+          <router-link class="routerLink" tag="button" to="/">
+            <img alt="Users" src="@/assets/user.svg" class="colored-img">Users
           </router-link>
-          <router-link class="routerLink" to="/merchants"><img alt="Merchants" height="40" src="@/assets/merchant.svg"
-                                                               width="40"/>Merchants
+          <router-link class="routerLink" to="/merchants">
+            <img alt="Merchants" src="@/assets/merchant.svg" class="colored-img"/>Merchants
           </router-link>
-          <router-link class="routerLink" to="/payments"><img alt="Payments" height="40" src="@/assets/payment.svg"
-                                                              width="40"/>Payments
+          <router-link class="routerLink" to="/payments">
+            <img alt="Payments" src="@/assets/payment.svg" class="colored-img"/>Payments
           </router-link>
         </nav>
       </div>
@@ -53,16 +53,26 @@ export default {
   flex-wrap: wrap;
 }
 
-.logo {
-  margin: 0 2rem 0 0;
-}
-
 .routerLink {
   text-decoration: none;
   color: #ffffff;
   margin-right: 10px;
   background-color: #559980;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 42px;
 }
+
+.colored-img {
+  background-color: #559980;
+  width: 40px;
+  height: 40px;
+}
+
+.logo-img {
+  position: relative;
+  top: -7px;
+  width: 380px;
+  height: 300px;
+}
+
 </style>
