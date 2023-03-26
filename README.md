@@ -30,3 +30,12 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+## Docker setup
+### Build dev image
+`docker build -t {imageName}:{tag} .`
+### Build prod image using locally built assets
+`docker build -f DockerfileProd -t {imageName}:{tag} .`
+### Build prod image using multi-stage build
+`docker build -f DockerfileMultiStage -t {imageName}:{tag} .`
