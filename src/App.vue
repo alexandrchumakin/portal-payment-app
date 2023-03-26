@@ -6,13 +6,13 @@
       <div class="wrapper">
         <nav>
           <router-link class="routerLink" tag="button" to="/">
-            <img alt="Users" src="@/assets/user.svg" class="colored-img">Users
+            <img alt="Users" class="colored-img" src="@/assets/user.svg">Users
           </router-link>
           <router-link class="routerLink" to="/merchants">
-            <img alt="Merchants" src="@/assets/merchant.svg" class="colored-img"/>Merchants
+            <img alt="Merchants" class="colored-img" src="@/assets/merchant.svg"/>Merchants
           </router-link>
           <router-link class="routerLink" to="/payments">
-            <img alt="Payments" src="@/assets/payment.svg" class="colored-img"/>Payments
+            <img alt="Payments" class="colored-img" src="@/assets/payment.svg"/>Payments
           </router-link>
         </nav>
       </div>

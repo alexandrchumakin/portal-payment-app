@@ -14,7 +14,8 @@
           <div class="row">
             <div class="form-group col-md-12">
               <label>Merchant ID</label>
-              <input id="merchantId" v-model="merchantId" class="form-control" name="merchantId" placeholder="Merchant ID"
+              <input id="merchantId" v-model="merchantId" class="form-control" name="merchantId"
+                     placeholder="Merchant ID"
                      type="text"/>
             </div>
           </div>
