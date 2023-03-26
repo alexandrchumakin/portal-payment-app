@@ -7,7 +7,8 @@
           <div class="row">
             <div class="form-group col-md-6">
               <label>Name</label>
-              <input id="name" v-model="name" aria-describedby="emailHelp" class="form-control" name="name" placeholder="Name"
+              <input id="name" v-model="name" aria-describedby="emailHelp" class="form-control" name="name"
+                     placeholder="Name"
                      type="text"/>
             </div>
             <div class="form-group col-md-6">
@@ -18,7 +19,8 @@
           <div class="row">
             <div class="form-group col-md-12">
               <label>Account number</label>
-              <input id="accountNumber" v-model="accountNumber" aria-describedby="emailHelp" class="form-control" name="accountNumber"
+              <input id="accountNumber" v-model="accountNumber" aria-describedby="emailHelp" class="form-control"
+                     name="accountNumber"
                      placeholder="Account number" type="text"/>
             </div>
           </div>
