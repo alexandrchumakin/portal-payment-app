@@ -10,11 +10,32 @@
     font-size: 30px;
 }
 
-.mrgnbtm {
+.mrgnbtn {
     margin-top: 20px;
 }
 
 .center {
     position: relative;
     border: 3px solid green;
+}
+
+.align-right {
+    float: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.table-border {
+    border: 3px solid;
+    line-height: normal;
+}
+.table-border th,
+.table-border td {
+    border: 3px solid;
+}
+
+button + button {
+    margin-left: 10px;
 }

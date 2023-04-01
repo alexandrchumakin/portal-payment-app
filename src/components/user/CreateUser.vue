@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="row">
-      <div class="col-md-7 mrgnbtm">
+      <div class="col-md-7 mrgnbtn">
         <h2>Create User</h2>
         <form>
           <div class="row">
