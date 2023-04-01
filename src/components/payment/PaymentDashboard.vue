@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <div class="container mrgnbtm">
+    <div class="container mrgnbtn">
       <div class="row">
         <div class="col-md-8">
           <MakePayment @makePayment="makePayment($event)"/>
@@ -10,7 +10,7 @@
         </div>
       </div>
     </div>
-    <div class="row mrgnbtm">
+    <div class="row mrgnbtn">
       <Payments v-if="payments.length > 0" :payments="payments"/>
     </div>
   </div>

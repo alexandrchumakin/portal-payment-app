@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <div class="container mrgnbtm">
+    <div class="container mrgnbtn">
       <div class="row">
         <div class="col-md-8">
           <CreateUser @createUser="userCreate($event)"/>
@@ -10,7 +10,7 @@
         </div>
       </div>
     </div>
-    <div class="row mrgnbtm">
+    <div class="row mrgnbtn">
       <Users v-if="users.length > 0" :users="users"/>
     </div>
   </div>
@@ -38,7 +38,6 @@ export default {
   methods: {
     getAllUsers() {
       getAllUsers().then(response => {
-        console.log(response)
         this.users = Object.entries(response).map(([key, value]) => Object.assign(value, { 'userId': key }))
         console.log(`Users len: ${Object.keys(this.users).length}`)
         this.numberOfUsers = Object.keys(this.users).length
