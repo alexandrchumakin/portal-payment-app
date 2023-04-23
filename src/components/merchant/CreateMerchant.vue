@@ -8,20 +8,18 @@
             <div class="form-group col-md-6">
               <label>Name</label>
               <input id="name" v-model="name" aria-describedby="emailHelp" class="form-control" name="name"
-                     placeholder="Name"
-                     type="text"/>
+                     placeholder="Name" type="text"/>
             </div>
             <div class="form-group col-md-6">
               <label>Address</label>
-              <input id="phone" v-model="address" class="form-control" name="phone" placeholder="Address" type="text"/>
+              <input id="address" v-model="address" class="form-control" name="address" placeholder="Address" type="text"/>
             </div>
           </div>
           <div class="row">
             <div class="form-group col-md-12">
               <label>Account number</label>
               <input id="accountNumber" v-model="accountNumber" aria-describedby="emailHelp" class="form-control"
-                     name="accountNumber"
-                     placeholder="Account number" type="text"/>
+                     name="accountNumber" placeholder="Account number" type="text"/>
             </div>
           </div>
           <button class="btn btn-success" type="button" @click='createMerchant()'>Create</button>
